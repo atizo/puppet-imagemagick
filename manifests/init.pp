@@ -13,7 +13,7 @@
 #
 
 class imagemagick {
-  include avahi
+  #include avahi
   package{'ImageMagick':
     ensure => present,
   }
